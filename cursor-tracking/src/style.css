@@ -1,0 +1,29 @@
+#container {
+  width: 500px;
+  padding: 5%;
+  top: 0;
+  position: absolute;
+  z-index: 2;
+  font-size: 1.5em;
+  font-family: roboto;
+}
+
+canvas {
+  border: solid;
+  z-index: 1;
+  position: relative;
+  margin: auto;
+}
+
+.cursor-trail {
+    position: absolute;
+    height: 5px; width: 5px;
+    border-radius: 50%S;
+    background: #0D47A1;
+  }
+.predict-trail {
+    position: absolute;
+    height: 5px; width: 5px;
+    border-radius: 50%S;
+    background: #DD2C00;
+  }
